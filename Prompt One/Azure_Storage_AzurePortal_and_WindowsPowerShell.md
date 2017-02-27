@@ -72,13 +72,13 @@ Note: New-AzureStorageAccount takes parameters like Account name, Location, Type
 1. Open Windows PowerShell ISE
 2. Open a new file
 3. Type in instructions to create account (Provided below)
-   1) Account name
-   2) Storage Key (Found in **All Resources &gt; OverView &gt; Acess Key** )
+   Account name
+   Storage Key (Found in **All Resources &gt; OverView &gt; Acess Key** )
    
- ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/9.png "9")
+ ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/11.png "11")
  
-   3) Type in the container&#39;s name you want to create
-   4) Use New-AzureStorageContext and New-AzureStorageContainer
+   Type in the container&#39;s name you want to create
+   Use New-AzureStorageContext and New-AzureStorageContainer
 
  ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/10.png "10")
 
