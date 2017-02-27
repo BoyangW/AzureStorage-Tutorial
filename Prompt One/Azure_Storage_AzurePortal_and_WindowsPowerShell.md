@@ -126,9 +126,9 @@ Windows PowerShell ISE
 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/15.png "15")
 
-4. Type in account name and Storage Key
-5. Specify the address of local data you want to up load
-6. Use New-AzureStorageContext and Set-AzureStorageBlobContent
+4.  Type in account name and Storage Key
+5.  Specify the address of local data you want to up load
+6.  Use New-AzureStorageContext and Set-AzureStorageBlobContent
 
 Output shown as:
 
