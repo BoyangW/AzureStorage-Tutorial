@@ -34,11 +34,10 @@ This tutorial demonstrates the following operations by using Azure Portal (on-si
 #### Azure Portal:
 
 1. Sign in [Azure Portal](https://portal.azure.com/) to get a visualized view of Azure Storage
-2.
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/2.png "2")
 2.Select **Add, Storage and Storage Account**
 3. Complete the setup of user name and following instructions
 4. In my case, I created my first storage account as &#39;boyangwei&#39;
-![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/3.png "3")
 
 #### Windows PowerShell ISE
 
@@ -75,16 +74,16 @@ Note: New-AzureStorageAccount takes parameters like Account name, Location, Type
 4. Account Name 
 5. Storage Key (Found in **All Resources &gt; OverView &gt; Acess Key** )
    
- ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/10.png "10)
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/10.png "10)
  
 6. Type in the container&#39;s name you want to create
 7. Use New-AzureStorageContext and New-AzureStorageContainer
 
- ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/10.png "9")
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/10.png "9")
 
-  Output shown as:
+ Output shown as:
 
- ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/11.png "11")
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/11.png "11")
 
 #3 Seeing what containers exist within the storage account.
 
