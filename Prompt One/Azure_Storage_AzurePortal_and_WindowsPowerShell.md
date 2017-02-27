@@ -34,17 +34,18 @@ This tutorial demonstrates the following operations by using Azure Portal (on-si
 #### Azure Portal:
 
 1. Sign in [Azure Portal](https://portal.azure.com/) to get a visualized view of Azure Storage
+
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/2.png "2")
-2.
-2.Select **Add, Storage and Storage Account**
+
+2. Select **Add, Storage and Storage Account**
 3. Complete the setup of user name and following instructions
 4. In my case, I created my first storage account as &#39;boyangwei&#39;
 
 #### Windows PowerShell ISE
 
 1. Open Windows PowerShell ISE
-2.
-2.Open a new file 
+
+2. Open a new file 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/4.png "4")
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/5.png "5")
 3. Type in instructions to create account (Provided below)
