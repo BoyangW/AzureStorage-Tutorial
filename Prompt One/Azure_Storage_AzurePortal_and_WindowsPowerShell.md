@@ -1,6 +1,6 @@
-# Azure Storage Operations by Using Windows PowerShell ISE
+# Azure Storage Operations by Using Azure Portal And Windows PowerShell ISE
 
-This tutorial demonstrates the following operations by using Azure Portal (on-site) and Windows PowerShell ISE
+This tutorial demonstrates the following operations by using Azure Portal (on-site) and Windows PowerShell ISE to:
 
 - Creating an Azure Blob Storage account (non-classic version)
 - Creating a container in that storage account
@@ -86,14 +86,14 @@ Note: New-AzureStorageAccount takes parameters like Account name, Location, Type
 
 #3 Seeing what containers exist within the storage account.
 
-Azure Portal
+#### Azure Portal
 
 1. Open the overview of storage account
 2. The information is shown as circled:
 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/11.png "11")
 
-Windows PowerShell ISE
+#### Windows PowerShell ISE
 
 1. Open Windows PowerShell ISE
 2. Open a new file and type in instructions
@@ -110,7 +110,7 @@ Output shown as:
 
 #4 Uploading data to that container
 
-Azure Portal
+#### Azure Portal
 
 1. Open the overview of storage account
 2. Open the container you want to upload the data
@@ -118,7 +118,7 @@ Azure Portal
 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/14.png "14")
 
-Windows PowerShell ISE
+#### Windows PowerShell ISE
 
 1. Open Windows PowerShell ISE
 2. Open a new file and type in instructions
@@ -136,14 +136,14 @@ Output shown as:
 
 #5 Seeing items are inside of that container
 
-Azure Portal
+#### Azure Portal
 
 1. Open the overview of storage account and its container
 2. The data is shown on the right
 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/new2.png "new2")
 
-Windows PowerShell ISE
+#### Windows PowerShell ISE
 
 1. Open Windows PowerShell ISE
 2. Open a new file and type in instructions
@@ -160,7 +160,7 @@ Output shown as:
 
 # 6 Deleting an item in that container
 
-Azure Portal
+#### Azure Portal
 
 1. Open the overview of storage account and its container
 2. Click on the data you want to modify
@@ -168,7 +168,7 @@ Azure Portal
 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/new3.png "new3")
 
-Windows PowerShell ISE
+#### Windows PowerShell ISE
 
 1. Open Windows PowerShell ISE
 2. Open a new file and type in instructions
@@ -181,14 +181,14 @@ Windows PowerShell ISE
 
 # 7 Deleting the container
 
-Azure Portal
+#### Azure Portal
 
 1. Open the overview of storage account and its container
 2. Click on the container and click on **delete**
 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/20.png "20")
 
-Windows PowerShell ISE
+#### Windows PowerShell ISE
 
 1. Open Windows PowerShell ISE
 2. Open a new file and type in instructions
@@ -201,14 +201,14 @@ Windows PowerShell ISE
 
 # 8 Deleting the Storage Account
 
-Azure Portal
+#### Azure Portal
 
 1. Open the overview of storage account
 2. Click on **delete** on the top right
 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/new4.png "new4")
 
-Windows PowerShell ISE
+#### Windows PowerShell ISE
 
 1. Open Windows PowerShell ISE
 2. Open a new file and type in instructions including the name of storage account you want to delete
