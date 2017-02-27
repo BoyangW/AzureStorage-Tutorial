@@ -47,14 +47,11 @@ This tutorial demonstrates the following operations by using Azure Portal (on-si
 2.
 2.Open a new file 
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/4.png "4")
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/5.png "5")
 3. Type in instructions to create account (Provided below)
 
-Note: New-AzureStorageAccount takes parameters like
-  1.Account name (all lower-case and non-existing)
-  2. Location of storage account
-  3.Type of storage account
-  4.Label (optional)
-![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/5.png "5")
+Note: New-AzureStorageAccount takes parameters like Account name, Location, Type of storage account and Label (optional)
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/6.png "6")
  
 
 1. Print out the status of Azure Storage Account by using Get-AzureStoageAccount
