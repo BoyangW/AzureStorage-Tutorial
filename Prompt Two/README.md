@@ -4,3 +4,5 @@
 - Submitting a Hive/MapReduce/Pig/Spark job script (choose one) to the cluster and executing it
 - Transferring results of the job to a blob storage or ADLS storage
 - Deleting the HDInsight cluster
+
+### Windows PowerShell ISE code can be found in Folder 'Codes'
