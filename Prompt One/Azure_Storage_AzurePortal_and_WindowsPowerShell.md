@@ -1,6 +1,6 @@
 # Azure Storage Operations by Using Azure Portal And Windows PowerShell ISE
 
-This tutorial demonstrates the following operations by using Azure Portal (on-site) and Windows PowerShell ISE to:
+This tutorial demonstrates the following operations by using Azure Portal (on-site) and Windows PowerShell ISE:
 
 - Creating an Azure Blob Storage account (non-classic version)
 - Creating a container in that storage account
