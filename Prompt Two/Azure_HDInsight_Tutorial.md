@@ -38,8 +38,8 @@ This tutorial demonstrates the following operations by using Windows PowerShell 
 3. Connect to Azure Subscription by using ‘Add-Azureaccount’ command and log in 
 Command: 
 
-![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/1.png "1")
-![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20One/Pictures/1.png "1")
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/1.png "1")
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/2.png "2")
 
 4. Specify the name of HDInsight Cluster (Here I used String ‘token’)
 5. Specify the names of resource group, new storage account and new storage container
