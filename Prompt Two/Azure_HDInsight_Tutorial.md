@@ -52,4 +52,4 @@ When creating the HDInsight cluster, it will let you type the credentials for Ha
 Default name for Hadoop User Account is ‘admin’ <br>
 
 The results are shown below:
-
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/3.png "3")
