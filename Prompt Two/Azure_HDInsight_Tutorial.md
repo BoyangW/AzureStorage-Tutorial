@@ -54,3 +54,52 @@ Default name for Hadoop User Account is ‘admin’ <br>
 
 The results are shown below:
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/4.png "4")
+Which can also be seen on Azure Portal
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/7.png "7")
+
+#2 Submitting a MapReduce job the cluster and executing it
+
+1.  Open Windows PowerShell ISE 
+2.	Open a new file on Windows PowerShell ISE
+3.	Login to Azure subscription (For instructions please refer contexts above)
+4.	Get the information of HDInsight cluster and Resource Group, Storage, etc.
+5.	Create a storage content and upload the file 
+6.	Create a MapReduce job by selecting the jar file that contains MapReduce Application
+7.	Specify the class of the application and the input file and output directory (In my case, I chose to save the output file under my user’s address on my PC)
+8.	Submit the job to cluster 
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/7.5.png "7.5")
+The output is shown below:
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/11.png "11")
+Now Let’s see how we can transfer the output into our blob and download it 
+
+#3 Transferring results of the job to a blob storage or ADLS storage
+1.	Open Windows PowerShell ISE 
+2.	Open a new file on Windows PowerShell ISE
+3.	Login to Azure subscription (For instructions please refer contexts above)
+4.	Continue from completion of MapReduce job
+5.  Download the output by using Get-AzureStorageBlobContent and specify the destination of the output file
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/12.png "12")
+The output is shown below:
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/13.png "13")
+Now I have the output file on my local PC address, let us test one of the function with it <br>
+For example, see how many String ‘there’ is in our test file: (By using Findstr) and here is the result:
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/14.png "14")
+
+## Trouble-shooting Part:
+If no information is returned when the job completes, an error may have occurred during processing. To view error information for this job:
+1.	Open Windows PowerShell ISE
+2.	Open a new file in Windows PowerShell ISE
+3.	Use Get-AzureRmHDInsightJobOutput command and type in the cluster name, etc.
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/15.png "15")
+
+#4 Delete the HDInsight cluster
+Because HDInsight cluster billing starts once a cluster is created and stops when the cluster is deleted. Billing is pro-rated per minute, so we should always delete our cluster when it is no longer in use. To do so:
+1.	Open a new file in Windows PowerShell ISE
+2.	Type in following command to remove the current HDInsight cluster (Name of cluster)
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/16.png "16")
+It also takes some time to delete HDInsight Cluster <br>
+The output is shown below:
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/17.png "17")
+
+
+
