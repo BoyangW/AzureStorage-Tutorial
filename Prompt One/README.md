@@ -8,3 +8,5 @@
 - Deleting an item in that container
 - Deleting the container
 - Deleting the storage account
+
+### Windows PowerShell ISE code can be found in Folder 'Codes'
