@@ -87,15 +87,15 @@ For example, see how many String ‘there’ is in our test file: (By using Find
 
 ## Trouble-shooting Part:
 If no information is returned when the job completes, an error may have occurred during processing. To view error information for this job: <br>
-1.	Open Windows PowerShell ISE
-2.	Open a new file in Windows PowerShell ISE
-3.	Use Get-AzureRmHDInsightJobOutput command and type in the cluster name, etc.
+1. Open Windows PowerShell ISE
+2. Open a new file in Windows PowerShell ISE
+3. Use Get-AzureRmHDInsightJobOutput command and type in the cluster name, etc.
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/15.png "15")
 
 #4 Delete the HDInsight cluster
 Because HDInsight cluster billing starts once a cluster is created and stops when the cluster is deleted. Billing is pro-rated per minute, so we should always delete our cluster when it is no longer in use. To do so: <br>
-1.	Open a new file in Windows PowerShell ISE
-2.	Type in following command to remove the current HDInsight cluster (Name of cluster)
+1. Open a new file in Windows PowerShell ISE
+2. Type in following command to remove the current HDInsight cluster (Name of cluster)
 ![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/16.png "16") <br>
 It also takes some time to delete HDInsight Cluster <br>
 The output is shown below: <br>
