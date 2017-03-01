@@ -46,10 +46,11 @@ Command:
 6. Use the following commands to create an Azure resource group, an Azure storage account and container
 7. Create a new HDInsight Cluster 
 8. The codes are provided below:
-
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/3.png "3")
 It takes some time (about 20 minutes) to create the cluster <br>
 When creating the HDInsight cluster, it will let you type the credentials for Hadoop User Account ($cluseterCredentials) and SSH user ($sshCredentials) <br>
 Default name for Hadoop User Account is ‘admin’ <br>
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/3.5.png "3.5")
 
 The results are shown below:
-![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/3.png "3")
+![alt text](https://raw.githubusercontent.com/BoyangW/AzureStorage-Tutorial/master/Prompt%20Two/Pictures/4.png "4")
