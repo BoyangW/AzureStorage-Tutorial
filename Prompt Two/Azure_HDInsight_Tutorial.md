@@ -47,9 +47,9 @@ Command:
 7. Create a new HDInsight Cluster 
 8. The codes are provided below:
 
-It takes some time (about 20 minutes) to create the cluster \s
-When creating the HDInsight cluster, it will let you type the credentials for Hadoop User Account ($cluseterCredentials) and SSH user ($sshCredentials) \s
-Default name for Hadoop User Account is ‘admin’ \s
+It takes some time (about 20 minutes) to create the cluster <br>
+When creating the HDInsight cluster, it will let you type the credentials for Hadoop User Account ($cluseterCredentials) and SSH user ($sshCredentials) <br>
+Default name for Hadoop User Account is ‘admin’ <br>
 
 The results are shown below:
 
